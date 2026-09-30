@@ -24,6 +24,19 @@ python3 hello.py                    // command to run file
 ## Chapter -2
 - Topic: Variables and data types
 - What we will learn - Variables, strings, integers, floats, booleans, `None`, and `type()`.
+- Commands - Reference with JS.
+```cmd
+//  In JS
+let name = "Prem";
+let age = 22;
+
+// In Python
+name = "Prem"
+age = 22
+
+print(name)  # Prem
+print(age)   # 22
+```
 
 ## Chapter -3
 - Topic: Operators and conversions
