@@ -57,6 +57,14 @@ print(age)   # 22
 ## Chapter -7
 - Topic: Collections
 - What we will learn - Lists, tuples, dictionaries, and sets compared with JavaScript arrays, objects, Maps, and Sets.
+| Feature | List | Tuple | Dictionary |
+|---|---|---|---|
+| Example | `[10, 20]` | `(10, 20)` | `{"name": "Prem"}` |
+| Stores | Items | Items | Key-value pairs |
+| Access by | Index | Index | Key |
+| Can change contents? | Yes | Items cannot be changed* | Yes |
+| Duplicates | Allowed | Allowed | Keys must be unique |
+| Typical use | A collection you edit | A fixed sequence | A record with named fields |
 
 ## Chapter -8
 - Topic: Functions
