@@ -73,6 +73,29 @@ print(age)   # 22
 ## Chapter -9
 - Topic: Modules and packages
 - What we will learn - Imports, creating modules, pip, virtual environments, and dependency management compared with npm.
+- Virtual Environment 
+```cmd
+# Once - .venv is a folder name can be changed.
+python3 -m venv .venv
+
+# Each new terminal session
+source .venv/bin/activate
+
+# Install whatever the project needs
+python -m pip install requests
+
+# Run your code
+python main.py
+
+# Run command to know how many packages installed and which version used
+pip freeze
+
+# command to store all installed packages with version in file
+pip freeze > requirement.txt
+
+# command to install all packages stored inside requirement.txt file
+pip install -r requirement.txt
+```
 
 ## Chapter -10
 - Topic: Errors and debugging
