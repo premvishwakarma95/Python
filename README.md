@@ -100,10 +100,27 @@ pip install -r requirement.txt
 ## Chapter -10
 - Topic: Errors and debugging
 - What we will learn - `try`, `except`, `else`, `finally`, raising exceptions, and debugging.
+- Common exceptions
+| Exception | Common cause | Example |
+|---|---|---|
+| `ValueError` | Valid type, unsuitable value | `int("hello")` |
+| `TypeError` | Operation used with an unsuitable type | `"Age: " + 22` |
+| `ZeroDivisionError` | Division by zero | `10 / 0` |
+| `NameError` | Name has not been defined | `print(unknown_name)` |
+| `IndexError` | Sequence index is out of range | `[10, 20][5]` |
+| `KeyError` | Dictionary key is missing | `{"name": "Prem"}["age"]` |
+| `ModuleNotFoundError` | Imported module cannot be found | `import missing_module` |
 
 ## Chapter -11
 - Topic: Files and JSON
 - What we will learn - Reading and writing files, working with paths, JSON, and CSV.
+- File modes
+| Mode | Purpose | If file is missing | If file exists |
+|---|---|---|---|
+| `"r"` | Read | Raises `FileNotFoundError` | Reads contents |
+| `"w"` | Write | Creates file | Clears existing contents |
+| `"a"` | Append | Creates file | Writes at the end |
+| `"x"` | Create a new file | Creates file | Raises `FileExistsError` |
 
 ## Chapter -12
 - Topic: Object-oriented programming
